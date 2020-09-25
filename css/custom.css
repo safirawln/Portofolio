@@ -1,0 +1,124 @@
+.nav-link{
+	text-transform: uppercase/capitalize/lowercase;
+	font-family: 'inter';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	margin-right: 20px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.btn-primary{
+	background: #555DA5;
+	flex-direction: row;
+	border: 0;
+	padding: 13px 57px 13px 57px;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 19px;
+	border-radius: 10px;
+}
+.btn-primary:hover{
+	background: #645e9c;
+	border: 0;
+}
+
+.container h1{
+	color: #413960;
+	font-family: 'Amaranth';
+	font-size: 45px;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	border: 0;
+}
+.container p{
+	color: #7D7791;
+	font-family: 'inter';
+	font-style: normal;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 32.4px;
+	border: 0;
+}
+
+
+/* utility */
+.tombol{
+	text-transform: uppercase/capitalize/lowercase;
+	border-radius: 10px;
+	display: flex;
+	font-family: 'Roboto';
+	margin-top: 10px;
+	margin-left: 200px;
+	padding: 13px 32px 13px 32px;
+	text-align: center;
+	background: #6255A5;
+}
+
+.About h6{
+	font-family: 'inter';
+	color: #6255A5;
+	font-size: 16px;
+}
+.About h3{
+	font-family: 'Amaranth';
+	color: #413960;
+	font-size: 28px;
+}
+.About h4{
+	font-family: 'Amaranth';
+	color: #413960;
+	font-size: 20;
+}
+
+.Catalog h6{
+    color: #6255A5;
+    font-size: 16px;
+}
+.Catalog h3{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #413960;
+}
+.Catalog .categories .nav-item{
+    font-size: 15px;
+    margin-top: 54px;
+    margin-right: 17px;
+}
+
+
+.card-deck.card-body h5{
+	font-family: 'Inter', sans-serif;
+}
+
+.Blog h6{
+	font-family: 'inter';
+	color: #6255A5;
+	font-size: 16px;
+}
+.Blog h3{
+	font-family: 'Amaranth';
+	color: #413960;
+	font-size: 28px;
+}
+
+
+// Dekstop Version
+@media (min-width: 992px) {
+	.nav-link{
+		text-transform: uppercase/capitalize/lowercase;
+		margin-right: 20px;
+	}
+	.nav-link:hover::after{
+		content: '';
+		border-bottom: block;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 3px; 
+	}
+}
